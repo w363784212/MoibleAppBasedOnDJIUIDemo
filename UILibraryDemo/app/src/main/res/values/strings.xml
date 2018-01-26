@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flight</string>
+    <string name="action_settings">Settings</string>
+    <string name="allocate">带宽分配</string>
+    <string name="VideoSource">选择视频源</string>
+    <string name="AllocateForHDMI">图传带宽  EXT 50% : HDMI 50%</string>
+</resources>

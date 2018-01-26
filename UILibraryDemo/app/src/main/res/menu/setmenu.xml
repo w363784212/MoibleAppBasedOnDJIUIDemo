@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:maxHeight="100dp">
+
+    <item
+        android:id="@+id/pwm1"
+        android:orderInCategory="100"
+        android:title="电子变倍开/关"/>
+
+    <item
+        android:id="@+id/pwm2"
+        android:orderInCategory="100"
+        android:title="自动对焦"/>
+
+    <item
+        android:id="@+id/pwm3"
+        android:orderInCategory="100"
+        android:title="调色板"/>
+
+    <item
+        android:id="@+id/pwm4"
+        android:orderInCategory="100"
+        android:title="拍照"/>
+
+    <item
+        android:id="@+id/pwm5"
+        android:orderInCategory="100"
+        android:title="开始/停止录像"/>
+
+    <item
+        android:id="@+id/pwm6"
+        android:orderInCategory="100"
+        android:title="镜头远焦微调"/>
+
+    <item
+        android:id="@+id/pwm7"
+        android:orderInCategory="100"
+        android:title="镜头近焦微调"/>
+
+    <item
+        android:id="@+id/record"
+        android:orderInCategory="100"
+        android:title="云台相机录像"
+        />
+
+    <item
+        android:id="@+id/stopRecord"
+        android:orderInCategory="100"
+        android:title="云台停止录像"
+        />
+    <item android:title="查询用户状态"
+        android:id="@+id/displayAccount"
+        android:orderInCategory="100"
+        />
+</menu>

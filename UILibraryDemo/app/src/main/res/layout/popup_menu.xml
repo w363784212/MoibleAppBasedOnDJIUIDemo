@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparent"
+    >
+
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:max="100"
+        android:minWidth="400dp"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/setEXTPort"
+        android:text="设置EXT端口(DJI云台)"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/seekBar"
+        android:layout_marginTop="30dp" />
+
+    <Switch
+        android:id="@+id/EnableEXTPort"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/seekBar"
+        android:layout_marginStart="-50dp"
+        android:checked="true"
+        />
+
+    <TextView
+        android:text="打开地面端HDMI输出"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/seekBar"
+        android:layout_marginTop="80dp"/>
+
+    <Switch
+        android:id="@+id/EnableSecondaryOutput"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/seekBar"
+        android:layout_marginStart="-50dp"
+        />
+
+    <TextView
+        android:id="@+id/BandWidth"
+        android:text="图传带宽  HDMI 50% : EXT 50%"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/seekBar"
+        android:layout_marginTop="130dp"/>
+
+
+    <TextView
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/seekBar"
+        android:layout_marginTop="190dp"/>
+
+</RelativeLayout>
